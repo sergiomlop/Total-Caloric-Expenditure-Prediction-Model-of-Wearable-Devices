@@ -14,7 +14,8 @@ The metric with which the prediction error will be measured is the MAPE (Median 
 <p align="center">
   <img src="https://github.com/sergiomlop/Total-Caloric-Expenditure-Prediction-Model-of-Wearable-Devices/blob/main/data/MAPE%20formula.png">
 </p>
-where T is the number of samples, 𝑦̂𝑡 is the actual value and 𝑦𝑡 is the prediction.
+
+where T is the number of samples, 𝑦̂𝑡 is the actual value and 𝑦𝑡 is the prediction.  
 
 In addition to the energy expenditure, for each time interval, the level of intensity of the activity carried out must be calculated. The classification of the intensity level is based on the metabolic equivalents or METS (kcal/kg*h) of the activity being a light activity < 3 METS, moderate 3 - 6 METS and intense > 6 METS. To estimate it, consider a person of 75 kg.
 The wearable device has a battery and transmits the information to a Gateway in the user's home and this Gateway to a data storage and processing server. The system or algorithm developed must take into account the battery consumption of the wearable to reduce the expenditure to the minimum.
